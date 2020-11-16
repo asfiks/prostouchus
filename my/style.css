@@ -1,9 +1,9 @@
-body {
+/*body {
       background-image: url(pic/fon.jpg);
       background-size: cover;
-      }
+      }*/
 #wrapper {
-    max-width: 80%;
+    width: 1000px;
     /*background-color: #00FF00;*/
     outline: 1px solid black;
     margin: 0px auto;
@@ -16,12 +16,22 @@ body {
     position: relative;
          }
       #menu {
-        width: 60%;
-        height: 30px;
-         border: 1px solid black;
+         width: 20%;
          position: absolute;
-         top: 80px;
-         left: 200px;
+         letter-spacing: 10px;
+         text-align: right;
+         font: 22px/24px  bold;
+         top: 40px;
+         left: 750px;
+         }
+         #sq {
+         width: 950px;
+         height: 150px;
+
+         position: absolute;
+         border: 11px solid rgba(0,0,0,0.05);
+         top: 10px;
+         left: 10px;
          }
 #left, #right {
     width: 200px;
